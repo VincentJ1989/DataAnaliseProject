@@ -34,3 +34,14 @@ plt.title('2000~2017年各产业各季度国民生产总值散点图')
 plt.legend(['第一产业', '第二产业', '第三产业', "第四产业"])
 plt.savefig('../tmp/多颜色散点图.png')
 plt.show()
+
+# 绘制折线图
+plt.figure(figsize=(8, 7))
+plt.plot(values[:, 0], values[:, 2], color='r', marker='o', linestyle='--')
+plt.xlabel = '年份'
+plt.ylabel = '生产总值(亿元)'
+plt.ylim((0, 225000))
+plt.xticks(range(0, 70, 4), values[range(0, 70, 4), 1], rotation=45)
+plt.title = '2000~2017年各季度国民生产总值折线图'
+plt.savefig('../tmp/生产总值折线图.png')
+plt.show()
