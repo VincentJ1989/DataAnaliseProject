@@ -42,6 +42,7 @@ plt.xlabel = '年份'
 plt.ylabel = '生产总值(亿元)'
 plt.ylim((0, 225000))
 plt.xticks(range(0, 70, 4), values[range(0, 70, 4), 1], rotation=45)
-plt.title = '2000~2017年各季度国民生产总值折线图'
+plt.title('2000~2017年各季度国民生产总值折线图')
 plt.savefig('../tmp/生产总值折线图.png')
 plt.show()
+
