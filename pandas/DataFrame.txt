@@ -12,3 +12,6 @@
 
 删除DataFrame某行某列数据
 1.通过drop即可
+
+4.2.3 描述分析DataFrame数据
+1.pandas基于NumPy，所以也具有一定的描述性统计函数
